@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  max-height: 100%;
+  color: #333;
+  overflow-x: hidden;
+}
+.login {
+  background-color: #ffc5c5;
+}
+.form_container h2 {
+  font-size: 2.3rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.form_container {
+  padding: 3.5rem;
+  max-width: 550px;
+  width: 60%;
+  box-shadow: 10px 10px #fff0f1;
+  flex-direction: column;
+}
+
+.text {
+  width: 100%;
+  font-family: inherit;
+  font-size: 1.2rem;
+  padding: 0.75rem 0.75rem;
+  margin-bottom: 1rem;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #ffc5c5;
+}
+
+button {
+  width: 100%;
+  background: #fff0f1;
+  outline: none;
+  border: none;
+  font-family: inherit;
+  color: #000000;
+  padding: 1rem 0;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    font-size: 14px;
+  }
+
+  .form_container {
+    width: 65%;
+    padding: 3rem;
+  }
+
+  .form_container h2 {
+    font-size: 2rem;
+  }
+
+  .text {
+    font-size: 1rem;
+  }
+
+  button {
+    font-size: rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 12px;
+  }
+
+  .form_container {
+    padding: 2.2rem;
+    width: 85%;
+  }
+
+  .form_container h2 {
+    font-size: 1.8rem;
+  }
+
+  .text {
+    font-size: 0.9rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+  }
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+.form-check-input {
+  outline: none;
+  cursor: pointer;
+  transition: background-color 3s;
+  border-color: #ffc5c5;
+}
+
+.form-switch .form-check-input:focus {
+  border-color: rgba(0, 0, 0, 0.25);
+  outline: 0;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba(0,0,0,0.25)'/></svg>");
+}
+.form-switch .form-check-input:checked {
+  background-color: #ffc5c5;
+  border-color: #ffc5c5;
+  border: none;
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba(255,255,255,1.0)'/></svg>");
+}
+
+.navbar {
+  background-color: #ffc5c5;
+}
+
+.container-fluid {
+  margin-top: 20px;
+}
+
+.sidebar {
+  height: 100vh;
+  background-color: #ffc5c5;
+}
+
+.nav-link {
+  color: #333;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+
+.graph {
+  max-width: 900px;
+}
+
+.nav {
+  margin-top: 80px;
+}
+
+img {
+  max-width: 100%;
+}
+
+img:hover {
+  opacity: 0.7;
+}
+
+li:hover {
+  opacity: 0.7;
+}
+
+hr {
+  height: 3.5px;
+  border-radius: 3px;
+  background-color: #fff0f1;
+  color: #fff0f1;
+}
