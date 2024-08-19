@@ -60,7 +60,7 @@ function SalesDashboard() {
           />
         </div>
         <div className="m-3">
-          <label className="m-2">End Date:</label>
+          <label className="m-2">Do:</label>
           <DatePicker
             selected={endDate}
             onChange={(date) => setEndDate(date)}
